@@ -1,0 +1,24 @@
+{
+  "name": "csv-injection-sanitizer",
+  "version": "1.0.0",
+  "description": "Helper for sanitizing CSV (or arbitraty DSV) values to prevent CSV formula injection attacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [
+    "CSV",
+    "DSV",
+    "sanitization",
+    "injection",
+    "formula injection"
+  ],
+  "author": "Vazitron",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
+  }
+}
